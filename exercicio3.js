@@ -5,6 +5,6 @@ function expandir(event){
     event.currentTarget.innerHTML = (event.currentTarget.innerHTML === "+")?"-":"+";
 }
 
-let buttons = document.querySelectorAll(".botao-expandir-retrair");
-for(let button of buttons)
-    button.addEventListener("click", expandir);
+let buttonsEl = document.querySelectorAll(".botao-expandir-retrair");
+for(let buttonEl of buttonsEl)
+    buttonEl.addEventListener("click", expandir);

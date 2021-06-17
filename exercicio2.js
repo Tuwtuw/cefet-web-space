@@ -66,8 +66,8 @@ const imagens = [
     img.alt = imagens[index].descricao;
   }
 
-  let botaoProximo = document.querySelector("#proximo");
-  let botaoAnterior = document.querySelector("#anterior");
+  let botaoProximoEl = document.querySelector("#proximo");
+  let botaoAnteriorEl = document.querySelector("#anterior");
 
-  botaoProximo.addEventListener("click", navegar);
-  botaoAnterior.addEventListener("click", navegar);
+  botaoProximoEl.addEventListener("click", navegar);
+  botaoAnteriorEl.addEventListener("click", navegar);
